@@ -46,7 +46,7 @@ export default {
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
-		css({ output: 'public/build/extra.css' }),
+		// REMOVED 2020-12-20 as recommended by Noah https://www.youtube.com/attribution_link?a=PPXnYIiHsoE1v5-5&u=/watch%3Fv%3DujbE0mzX-CU%26lc%3DUgzAB4O-h0qAfbTyMIR4AaABAg.98HXbL1e6IW9HTNkoEYSyr%26feature%3Dem-comments - css({ output: 'public/build/extra.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
